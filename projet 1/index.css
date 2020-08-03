@@ -1,0 +1,98 @@
+li{
+    list-style: none;
+}
+
+.header{
+    border-bottom: 1px solid rgb(15, 14, 14);
+}
+
+.page-title{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navlink{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-link-color{
+    color: rgb(32, 124, 120);
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.container h2{
+    margin-left: 50px;
+}
+
+
+.article{
+    width: 49%;
+    display: flex;
+    border: 1px solid #a7a2a2;
+    box-shadow: 1px 3px 17px -5px rgba(0,0,0,0.54); 
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+
+.image-article{
+    width: 170px;
+    margin-top: 5px;
+}
+
+.articles{
+    display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+.article-footer{
+    display: flex;
+    justify-content: space-between;
+   margin-right: 5px;
+   align-items: baseline;
+}
+
+.article-footer p{
+    color: #948d8d;
+}
+
+.article-footer-link{
+    margin-right: 5px;
+    font-style: italic;
+}
+
+.hr-main{
+    width: 250px;
+    color: rgb(15, 14, 14);
+}   
+
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.footer .navlink{
+    color: #e9e0e0;
+}
+
+.footer .navbar ul {
+    justify-content: center;
+}
+
+.copyright{
+    color: #e9e0e0;
+    text-align: center;
+}
